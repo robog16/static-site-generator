@@ -11,7 +11,7 @@ class TestHTMLNode(unittest.TestCase):
         node3 = HTMLNode('p', 'ahoj kokotko', {'class': 'picovina'})
         node4 = HTMLNode('p', 'ahoj picusko', {'class': 'picovina'})
         self.assertNotEqual(node3, node4)
-    
+
     def test_not_text_type(self):
         node5 = HTMLNode('a', 'google', {'class': 'kokotinka', 'href': 'https://www.google.com'})
         node6 = HTMLNode('a', 'ahoj kokotko', {'class': 'kokotinka', 'href': 'https://www.bing.com'})
