@@ -2,7 +2,7 @@ from textnode import TextNode, TextType
 
 
 def main():
-    node = TextNode('Toto je nejaky text mojho nodu', TextType.LINK, 'https://www.boot.dev')
+    node = TextNode('This is a text node', TextType.LINK, 'https://www.boot.dev')
     print(node)
 
 
